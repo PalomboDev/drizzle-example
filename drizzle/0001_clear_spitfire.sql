@@ -1,0 +1,1 @@
+ALTER TABLE "posts" ADD CONSTRAINT "posts_author_users_uuid_fk" FOREIGN KEY ("author") REFERENCES "public"."users"("uuid") ON DELETE no action ON UPDATE no action;
